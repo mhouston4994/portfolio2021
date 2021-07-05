@@ -25,6 +25,8 @@ const Projects = () => {
     }
   }, []);
 
+
+
   const settings = {
     interval: 5000,
     nextIcon: null,
@@ -35,16 +37,16 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Testimonials" />
+          <Title title="Projects" />
           <Carousel {...settings}>
-          {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
-            return (
-              <Carousel.Item>
-                <SampleCard img={img} title={title} info={info}/>
+            {projects.map((project) => {
+              const { title, info, info2, url, repo, img, id } = project;
+              return (
+                <Carousel.Item key={id} >
+                  <SampleCard  img={img} title={title} info={info} repo={repo} />
                 </Carousel.Item>
-            )
-          })}
+              )
+            })}
           </Carousel>
         </div>
       </Container>

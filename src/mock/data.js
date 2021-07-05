@@ -2,87 +2,68 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Taylor Rae Talks', // e.g: 'Name | Developer'
+  title: 'Matthew Houston | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Spiritual Hero', // e.g: Welcome to my website
+  description: 'Full Stack MERN Developer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Taylor Rae',
-  subtitle: 'Spiritual Awareness Coach',
+  name: 'Matthew Houston',
+  subtitle: 'Full Stack MERN Developer',
   cta: 'Learn More',
-  cta2: 'Blog',
+  cta2: 'Resume',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: 'profile.JPEG',
+  paragraphOne: `Hi, my name is Matthew Houston. I'm the lead full stack MERN developer for a fiduciary processing company. I specialize in building single page responsive web apps, reading/parsing data sheets, and data manipulation. I currently have 2 years of professional experience, with 4 years of total experience. Check out some of the projects below, most of the projects I work on are require NDA's, so I cannot post about those. If you'd like something built, please feel free to reach out below.`,
+  paragraphTwo:
+    'Skilled using technologies such as: Html, css, javascript, React, Redux, Git, Azure portal/Azure Devops, MongoDB, Node/Npm, MySQL, CORS, encryption/storing PII with low risk, etc. As well as utilizing best practices such as REST APIs, AGILE, and a heightened sense of Big-O-Notation with complex algorithms.',
   paragraphThree: '',
-  resume: '/blog', // if no link, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/1trx0kTouKiix30T16yhkjGqjpFiOd1XH9RJ6LIvQwKg/edit?usp=sharing', // if no link, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '-Dawn D',
-    info: "Taylor's exuberance rallies me forward towards goals that improve my life in ways I could not have earlier imagined. I feel seen and heard by her when we communicate directly. I also gain from her online presence where I see her demonstrating the spiritual tools that she shares so freely with others.",
+    img: 'proshop-1080.jpg',
+    title: 'ProShop',
+    info: 'Ecommerce demo app, still in development',
     info2: '',
     url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/mhouston4994/proshop', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '-Leena P.',
-    info: "Girl! Your tarot readings are always so on point and always lead me exactly where I need to be! Your vibes are always the best and I'll be coming to you for all my future readings. I love you so much!",
+    img: 'moviefight-1080.jpg',
+    title: 'Movie Fight',
+    info: 'Ajax app that utilizes OMDb API to fetch, display, and compare 2 movies',
     info2: '',
     url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/mhouston4994/moviefight', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '-Maggie M.',
-    info: "I haven't been on social media in over a year, however this deserves to be posted and I wish I could tell the world about Taylor Rae Talks! My day is made and I feel a vibe that I haven't felt in my life. I have never gotten my cards read and honestly didn't think of ever getting them read. I'm so happy, grateful, blessed, words can't even describe my mind is blown. Honestly ugh I can't even explain. Anyways all I know is that this woman is amazing love her not only for reading my cards, but as a person and a friend.",
+    img: 'lightsout-1080.jpg',
+    title: 'Lights Out',
+    info: 'Lights out arcade game using react',
     info2: '',
     url: '',
-    repo: '', // if no repo, the button will not show up
-  },
-];
-// BLOGS DATA
-export const blogsData = [
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'How Could You Ever',
-    info: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/mhouston4994/lightsoutgame', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Mondays am I right?',
-    info: 'dolor voluptatum consequatur blanditiis',
+    img: 'yelpcamp-1080.jpg',
+    title: 'Yelpcamp',
+    info: 'Full stack app that utilizes MongoDB, Express, Node, Bootstrap. Fully operational web-app.',
     info2: '',
     url: '',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Think for yourself',
-    info: 'numquam voluptate architecto itaque molestiae.',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/mhouston4994/yelpcamp', // if no repo, the button will not show up
   },
 ];
 
@@ -98,18 +79,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'instagram',
-      url: 'https://www.instagram.com/taylorraetalks_/',
+      name: 'github',
+      url: 'https://github.com/mhouston4994',
     },
     {
       id: nanoid(),
-      name: 'tiktok',
-      url: 'https://www.tiktok.com/@taylorrae444',
+      name: 'instagram',
+      url: 'https://www.instagram.com/pardition_/',
+    },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/matthew-houston-a0461418b/',
     },
     {
       id: nanoid(),
       name: 'envelope',
-      url: 'mailto:taylorraetalks@gmail.com',
+      url: 'mailto:mhouston4994@gmail.com',
     },
   ],
 };

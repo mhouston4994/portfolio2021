@@ -28,6 +28,7 @@
       height: 100%;
       align-items: center;
       justify-content: center;
+      filter: grayscale(.3);
 
       @include respond(tab-port) {
         padding-bottom: 6.4rem;

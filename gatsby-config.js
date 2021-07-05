@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Taylor Rae Talks`,
-        short_name: `Taylor Talks`,
+        name: `Matthew Houston Portfolio`,
+        short_name: `MH Portfolio`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,

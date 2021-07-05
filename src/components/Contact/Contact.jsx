@@ -21,7 +21,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://calendly.com/taylor4933'}
+              href='mailto:mhouston4994@gmail.com'
             >
               {btn || "Let's Talk"}
             </a>

@@ -1,7 +1,7 @@
 {
-  "name": "taylorraetalks",
+  "name": "portfolio2021",
   "private": true,
-  "description": "A simplified bare-bones startup",
+  "description": "Modernized Version of Portfolio",
   "version": "0.1.0",
   "license": "MIT",
   "author": "Matthew Houston",
@@ -53,10 +53,6 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
   "husky": {
     "hooks": {

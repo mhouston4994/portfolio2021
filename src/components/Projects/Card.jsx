@@ -8,21 +8,24 @@ import Slider from "react-slick";
 import ProjectImg from '../Image/ProjectImg';
 
 
+
 const SampleCard = (props) => {
 
-  let {img, title, info} = props
+  let { img, title, info, repo } = props
   return (
-<>
-                <Card style={{ 'padding-bottom': '40px', 'border' : 'none' }}>
-                <ProjectImg alt={title} filename={img} />
-                <Card.Body>
-                  <Card.Title>{title}</Card.Title>
-                  <Card.Text>
-                   {info}
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-              </>
+    <>
+      <Card style={{ 'paddingBottom': '40px', 'border': 'none' }}>
+        <ProjectImg alt={title} filename={img}  />
+        <Card.Body>
+          <Card.Title><a href={repo} target="_blank" rel="noopener noreferrer">
+          {title}
+          </a></Card.Title>
+          <Card.Text>
+            {info}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </>
 
   );
 };
