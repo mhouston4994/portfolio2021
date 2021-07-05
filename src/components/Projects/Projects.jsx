@@ -36,6 +36,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <Container>
+      <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
         <div className="project-wrapper">
           <Title title="Projects" />
           <Carousel {...settings}>
@@ -49,6 +50,7 @@ const Projects = () => {
             })}
           </Carousel>
         </div>
+        </Fade>
       </Container>
     </section>
   );

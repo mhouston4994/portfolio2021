@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import Hero from '../components/Hero/Hero';
+import About from '../components/About/About';
+import Projects from '../components/Projects/Projects';
+import Contact from '../components/Contact/Contact';
+import Footer from '../components/Footer/Footer';
 import { PortfolioProvider } from '../context/context';
 
-import LandingPage from '../pages/LandingPage'
 
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
@@ -25,11 +29,11 @@ function App() {
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
-      <Router>
-        <Switch>
-          <Route path="/" exact component={LandingPage} />
-        </Switch>
-      </Router>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </PortfolioProvider>
   );
 }
