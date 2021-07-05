@@ -19,7 +19,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.JPEG',
-  paragraphOne: `Hi, my name is Matthew Houston. I'm the lead full stack MERN developer for a fiduciary processing company. I specialize in building single page responsive web apps, reading/parsing data sheets, and data manipulation. I currently have 2 years of professional experience, with 4 years of total experience. Check out some of the projects below, most of the projects I work on are require NDA's, so I cannot post about those. If you'd like something built, please feel free to reach out below.`,
+  paragraphOne: `Hi, my name is Matthew Houston. I'm the lead full stack MERN developer for a fiduciary processing company. I specialize in building single page responsive web apps, reading/parsing data sheets, and data manipulation. I currently have 2 years of professional experience, with 4 years of total experience. Check out some of my projects below, most of the projects I work on require NDA's, so I cannot post about those. If you'd like something built, please feel free to reach out below.`,
   paragraphTwo:
     'Skilled using technologies such as: Html, css, javascript, React, Redux, Git, Azure portal/Azure Devops, MongoDB, Node/Npm, MySQL, CORS, encryption/storing PII with low risk, etc. As well as utilizing best practices such as REST APIs, AGILE, and a heightened sense of Big-O-Notation with complex algorithms.',
   paragraphThree: '',
